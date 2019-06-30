@@ -1,0 +1,20 @@
+<resources>
+    <!-- Strings related to login
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Registrar</string>
+
+    <string name="action_registre">Registrar</string>
+    <string name="action_torre">Escriba la Torre</string>
+    <string name="invalid_email">Esta direccion de email esta invalida</string>
+    <string name="invalidadTore">Asignacion de Torre Invalidad</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="incorrect_email">Email Incorrecto</string>
+    <string name="field_required">Este Campo es Requerido</string>
+    <string name="username">Usuario</string>
+    <string name="grupo">Escriba la Torre</string>
+    <string name="number">Numero</string>
+    <string name="password">Password</string>
+    <string name="title_activity_chat">Chat</string>-->
+</resources>

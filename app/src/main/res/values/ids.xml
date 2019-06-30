@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="author" type="id" />
+    <item name="message" type="id" />
+    <item name="timeButton" type="id"/>
+    <item name="urlContainer" type="id"/>
+
+    <item type="id" name="layout_root"/>
+    <item type="id" name="topbar"/>
+    <item type="id" name="image"/>
+    <item type="id" name="text"/>
+    <item type="id" name="toolBar"/>
+    <item type="id" name="dimensionMode"/>
+    <item type="id" name="grayscaleMode"/>
+    <item type="id" name="clutNormal"/>
+    <item type="id" name="clutInverse"/>
+    <item type="id" name="clutRainbow"/>
+    <item type="id" name="lockUnlockToolbar"/>
+    <item type="id" name="imageView"/>
+    <item type="id" name="currentToolButton"/>
+    <item type="id" name="rowTextView"/>
+    <item type="id" name="columnTextView"/>
+    <item type="id" name="grayscaleImageView"/>
+    <item type="id" name="navigationToolbar"/>
+    <item type="id" name="previousImageButton"/>
+    <item type="id" name="imageIndexView"/>
+    <item type="id" name="serieSeekBar"/>
+    <item type="id" name="imageCountView"/>
+    <item type="id" name="nextImageButton"/>
+    <item type="id" name="fileName"/>
+    <item type="id" name="file_chooser_mainLayout"/>
+    <item type="id" name="select_lut_clut"/>
+    <item type="id" name="show_normalLUT"/>
+    <item type="id" name="show_inverseLUT"/>
+    <item type="id" name="show_rainbowCLUT"/>
+    <item type="id" name="grayscaleWindow_CTBone"/>
+    <item type="id" name="grayscaleWindow_CTCrane"/>
+    <item type="id" name="grayscaleWindow_CTLung"/>
+    <item type="id" name="grayscaleWindow_CTAbdomen"/>
+    <item type="id" name="image_scale_mode"/>
+    <item type="id" name="fit_to_screen"/>
+    <item type="id" name="real_size"/>
+    <item type="id" name="showHide_grayscaleWindow"/>
+    <item type="id" name="showHide_serieSeekBar"/>
+    <item type="id" name="showHide_toolbar"/>
+    <item type="id" name="lock_toolbar"/>
+    <item type="id" name="ddv_CacheAllImage"/>
+    <item type="id" name="ddv_DialogAbout"/>
+    <item name="ddv_ShowImageMetaData" type="id" />
+    <item name="action_loopback" type="id"/>
+    <item name="item_click_support" type="id" />
+
+</resources>

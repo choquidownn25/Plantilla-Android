@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+
+
+        <ImageView
+            android:id="@+id/img_imagen_portal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/connect_description"
+            android:background="@drawable/webrtcportalconetividad" />
+
+
+        <TextView
+            android:id="@+id/room_edittext_descriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textStyle="bold"
+            android:textColor="#0288D1"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/room_edittext_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0288D1"
+            android:text="@string/room_descriptionprueba"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/room_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:inputType="text"/>
+
+            <ImageButton
+                android:id="@+id/connect_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/connect_description"
+                android:background="@android:drawable/sym_action_call" />
+
+            <ImageButton
+                android:id="@+id/add_favorite_mapa"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/add_favorite_description"
+                android:background="@drawable/googlemapsicno" />
+
+
+
+            <ImageButton
+                android:id="@+id/add_favorite_chat"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/add_favorite_description"
+                android:background="@drawable/chat" />
+
+            <ImageButton
+                android:id="@+id/add_favorite_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/add_favorite_description"
+                android:background="@android:drawable/ic_input_add" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/room_listview_description"
+            android:textStyle="bold"
+            android:textColor="#0288D1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/disponibilidad"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtgps"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:lines="1"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicos disponilbles"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtgpslongitud"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:lines="1"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicos disponilbles"
+            android:gravity="center_vertical"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <ListView
+                android:id="@+id/room_listview"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false" />
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_favorites" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

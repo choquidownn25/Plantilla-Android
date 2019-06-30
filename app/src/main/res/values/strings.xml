@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="video" tools:ignore="MissingTranslation">Videos educativos</string>
+    <string name="videouno">Drhelp! Prueba Piloto en puerto Tejada, Cauca</string>
+    <string name="videodos">Drhelp! Aporta a la solución de la problemática del sector Salud</string>
+    <string name="videotres">Drhelp! Proyecto por una MEJOR SALUD en Colombia</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Registrar</string>
+
+    <string name="action_registre">Registrar</string>
+    <string name="action_torre">Escriba la Torre</string>
+    <string name="invalid_email">Esta direccion de email esta invalida</string>
+    <string name="invalidadTore">Asignacion de Torre Invalidad</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="incorrect_email">Email Incorrecto</string>
+    <string name="field_required">Este Campo es Requerido</string>
+    <string name="username">Usuario</string>
+    <string name="grupo">Escriba la Torre</string>
+    <string name="number">Numero</string>
+    <string name="password">Password</string>
+    <string name="title_activity_chat">Chat</string>
+
+    <string name="app_name">Dr Help</string>
+    <!--<string name="app_name">Video Conferencia</string>-->
+    <string name="action_settings">Cerrar Sesion</string>
+    <string name="aRegistro">Register</string>
+    <string name="aID">ID</string>
+    <string name="apEnviar">SEND</string>
+    <string name="action_settings_video">Configuracion Video</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_loading">Please Wait</string>
+    <string name="msg_loading">Loading movies list…</string>
+    <string name="appLongitud">Longitud</string>
+    <string name="appLatitud">Latitud</string>
+    <string name="action_search">Publicidad</string>
+
+    <string name="action_record">Record Video</string>
+    <string name="action_save">Save</string>
+    <string name="action_label">Add Label</string>
+    <string name="action_play">Play Video</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="default_text">--</string>
+    <string name="hello">Hello World, AccelerometerDriverV2Activity!</string>
+    <string name="show">Mostrar</string>
+
+
+    <string name="disconnect_call">Colgar la Video llamada</string>
+    <string name="room_names">Nombre de la Sala:</string>
+    <string name="room_description">
+     Para realizar una consulta virtual, escoja un médico disponible y se iniciara la video llamada.
+    </string>
+
+    <string name="disponibilidad">Cargos disponibles</string>
+
+    <string name="room_descriptionprueba">
+     Escoja la lista  y se iniciara la video llamada.
+    </string>
+
+    <string name="room_bienvenidad">Welcome</string>
+    <string name="connect_text">Connect</string>
+    <string name="invalid_url_title">Invalid URL</string>
+    <string name="invalid_url_text">The URL or room name you entered resulted in an invalid URL: %1$s
+    </string>
+    <string name="channel_error_title">Connection error</string>
+    <string name="connecting_to">Connecting to: %1$s</string>
+    <string name="missing_url">FATAL ERROR: Missing URL to connect to.</string>
+    <string name="ok">OK</string>
+    <string name="switch_camera">Switch front/back camera</string>
+    <string name="toggle_debug">Toggle debug view</string>
+
+    <string name="add_room_description">Add new room to the list</string>
+    <string name="remove_room_description">Remove room from the list</string>
+    <string name="connect_description">Connect to the room</string>
+    <string name="connect_loopback_description">Loopback connection</string>
+
+    <!-- Settings strings. -->
+    <string name="pref_room_key">room_preference</string>
+    <string name="pref_room_list_key">room_list_preference</string>
+
+    <string name="pref_videosettings_key">video_settings_key</string>
+    <string name="pref_videosettings_title">WebRTC video settings.</string>
+
+    <string name="pref_videocall_key">videocall_preference</string>
+    <string name="pref_videocall_title">Video call.</string>
+    <string name="pref_videocall_dlg">Enable video in a call.</string>
+    <string name="pref_videocall_default">true</string>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video resolution.</string>
+    <string name="pref_resolution_dlg">Enter AppRTC local video resolution.</string>
+    <string name="pref_resolution_default">Default</string>
+
+    <string name="pref_fps_key">fps_preference</string>
+    <string name="pref_fps_title">Camera fps.</string>
+    <string name="pref_fps_dlg">Enter local camera fps.</string>
+    <string name="pref_fps_default">Default</string>
+
+    <string name="pref_capturequalityslider_key">capturequalityslider_preference</string>
+    <string name="pref_capturequalityslider_title">Capture quality slider.</string>
+    <string name="pref_capturequalityslider_dlg">Enable slider for changing capture quality.</string>
+    <string name="pref_capturequalityslider_default">false</string>
+
+    <string name="pref_startvideobitrate_key">startvideobitrate_preference</string>
+    <string name="pref_startvideobitrate_title">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_dlg">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_default">Default</string>
+
+    <string name="pref_startvideobitratevalue_key">startvideobitratevalue_preference</string>
+    <string name="pref_startvideobitratevalue_title">Video encoder start bitrate.</string>
+    <string name="pref_startvideobitratevalue_dlg">Enter video encoder start bitrate in kbps.</string>
+    <string name="pref_startvideobitratevalue_default">1000</string>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec.</string>
+    <string name="pref_videocodec_dlg">Select default video codec.</string>
+    <string name="pref_videocodec_default">VP8</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration.</string>
+    <string name="pref_hwcodec_dlg">Use hardware accelerated video codec (if available).</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_capturetotexture_key">capturetotexture_preference</string>
+    <string name="pref_capturetotexture_title">Video capture to surface texture.</string>
+    <string name="pref_capturetotexture_dlg">Capture video to textures (if available).</string>
+    <string name="pref_capturetotexture_default">false</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_audiosettings_key">audio_settings_key</string>
+    <string name="pref_audiosettings_title">WebRTC audio settings.</string>
+
+    <string name="pref_startaudiobitrate_key">startaudiobitrate_preference</string>
+    <string name="pref_startaudiobitrate_title">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_dlg">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_default">Default</string>
+
+    <string name="pref_startaudiobitratevalue_key">startaudiobitratevalue_preference</string>
+    <string name="pref_startaudiobitratevalue_title">Audio codec bitrate.</string>
+    <string name="pref_startaudiobitratevalue_dlg">Enter audio codec bitrate in kbps.</string>
+    <string name="pref_startaudiobitratevalue_default">32</string>
+
+    <string name="pref_audiocodec_key">audiocodec_preference</string>
+    <string name="pref_audiocodec_title">Default audio codec.</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec.</string>
+    <string name="pref_audiocodec_default">OPUS</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing.</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline.</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <string name="pref_aecdump_key">aecdump_preference</string>
+    <string name="pref_aecdump_title">Create aecdump.</string>
+    <string name="pref_aecdump_dlg">Enable diagnostic audio recordings.</string>
+    <string name="pref_aecdump_default">false</string>
+    <string name="aNombre">Name</string>
+    <string name="aCorreo">Email</string>
+    <string name="apAcepto">Accept the terms, conditions and privacy policies</string>
+
+    <string name="apContra">Password</string>
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback.</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback.</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_miscsettings_key">misc_settings_key</string>
+    <string name="pref_miscsettings_title">Miscellaneous settings.</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+
+    <!-- http://localhost/SimpleWebRTC/SimpleWebRTC/ https://appr.tc
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+    http://doctorhelp.com.co/video/SimpleWebRTC/
+    -->
+
+    <string name="pref_room_server_url_default" translatable="false">https://appr.tc</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+
+    <string name="pref_tracing_key">tracing_preference</string>
+    <string name="pref_tracing_title">Debug performance tracing.</string>
+    <string name="pref_tracing_dlg">Debug performance tracing.</string>
+    <string name="pref_tracing_default" translatable="false">false</string>
+    <string name="settings_name">Archivo</string>
+    <string name="botonconculta">Consult a Doctor</string>
+    <string name="apBotomHistoriaClinica">Medical Record</string>
+    <string name="apExamenes">Laboratory Tests</string>
+
+    <string name="apCitasMedicas">Book an Appointment</string>
+    <string name="apCuidaSalud">Take Care of Your Health</string>
+    
+    <string name="apConsulta">Consult</string>
+    <string name="apDrugstores">Drugstores</string>
+    <string name="apBienvenido">Welcome</string>
+    <string name="apPara">To start a videoconference, choose an available doctor and click on the phone to start the virtual appointment</string>
+    <string name="apMédicosDisponibles">Available Physicians</string>
+
+
+    <string name="str_en" tools:ignore="MissingTranslation">English</string>
+    <string name="str_es" tools:ignore="MissingTranslation">Spanish</string>
+    <string-array name="languages" >
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+
+    </string-array>
+    <string name="str_button" tools:ignore="MissingTranslation">Change Language</string>
+    <string name="about_dialog">Droid Dicom Viewer es una fuente libre y abierto
+Software (FOSS) con licencia bajo los términos de la GNU General Public
+Licencia publicada por la Free Software Foundation, bien de la versión 3
+de la Licencia, o (a su elección) cualquier versión posterior. \ n \ n
+Esta versión de DROID DICOM Viewer no está certificado como un dispositivo médico
+(CE-1 o FDA) para el diagnóstico primario o la práctica clínica.
+ESTE SOFTWARE SÓLO SE PUEDE UTILIZAR COMO REVISAR O SOFTWARE Y CIENTÍFICA
+No se puede utilizar como un dispositivo médico PRIMARIA PARA DIAGNÓSTICO O CUALQUIER OTRA
+La práctica clínica. \ N \ n
+Dicom de Droid del software se distribuye con la esperanza de que sea útil,
+pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIALIZACIÓN
+o aptitud para un propósito en particular. Vea la Licencia Droid Dicom para obtener más
+Detalles: http://code.google.com/p/droid-dicom-viewer/wiki/License.\n\n
+DICOM COMPATIBILIDAD \ n
+Droid Dicom Visor implementa una parte del estándar DICOM.
+Se lee imágenes DICOM que están codificados en 8 bits y 16 bits.
+Es compatible con archivos DICOM no sólo en escala de grises comprimido.
+Se analiza implícita y explícita (little endian y big endian)
+Representación de valores (VR). \ n \ n
+2011 Pierre Malarme
+Traductor de Google para empresas:Google Translator Toolki</string>
+    <string name="dicom_info_name">Archivo de Informacion DICOM</string>
+    <string name="to_date">Hasta</string>
+    <string name="from_date">Desde</string>
+    <string name="camera2_texture_only_error">Camera2 sólo admite la captura a textura. Desactive Camera2 o habilite la captura para texturar en las opciones.</string>
+    <string name="muted">Muted</string>
+    <string name="pref_speakerphone_key">speakerphone_preference</string>
+    <string name="pref_speakerphone_default">auto</string>
+    <string name="pref_camera2_key">camera2_preference</string>
+    <string name="favorites">Available Physicians</string>
+    <string name="no_favorites">Favoritos</string>
+    <string name="add_favorite_description">Adicionar</string>
+    <string name="pref_disable_built_in_aec_key">Desahabilitar aec key</string>
+    <string name="pref_disable_built_in_ns_key">Deshabilitar in ns key</string>
+
+    <string name="examenfoto1">To submit an exam</string>
+    <string name="examenfoto2">Please take a picture of the</string>
+    <string name="examenfoto3">Document and click OK</string>
+
+    <string name="pref_enable_level_control_key">Habilitar nivel key control</string>
+    <string name="pref_disable_built_in_aec_default">Falso</string>
+    <string name="pref_disable_built_in_ns_default">Deshabilita por defecto</string>
+    <string name="pref_disable_built_in_agc_default">Falso</string>
+    <string name="pref_camera2_not_supported">Solo soporta Android Lilop</string>
+    <string name="pref_built_in_aec_not_available">Hardware AEC no esta habilitado</string>
+    <string name="pref_built_in_agc_not_available">Hardware AGC no esta habilitado</string>
+    <string name="pref_built_in_ns_not_available">Hardware NS no esta habilitado</string>
+    <string name="capture_format_change_text">Deslice para cambiar el formato de captura</string>
+    <string name="toggle_mic">Microfono on/off</string>
+    <string name="toggle_chat">Chat</string>
+    <string name="toggle_documento">Documento</string>
+    <string name="pref_disable_built_in_agc_key">Desehabilita agc key</string>
+    <string name="pref_camera2_default">Default pref camara2</string>
+    <string name="action_loopback">Loopback connection</string>
+    <string name="hello_world">Hola</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
+
+    <string name="action_network">Network</string>
+
+    <string name="action_myprofile">My Profile</string>
+    <string name="action_viewprofile">View Profile</string>
+    <string name="action_contact">Contacts</string>
+    <string name="action_quit">Quit</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_conversation">Conversation</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="empty"></string>
+    <string name="send">Send</string>
+    <string name="nickname">NickName</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="sendfile">Send File</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_network">NetworkActivity</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="account">Account</string>
+
+    <string name="login">Login</string>
+    <string name="newuser">New User?</string>
+    <string name="signup">Signup</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="keyword">Please input keyword</string>
+    <string name="search">Search</string>
+    <string name="add">Add to contacts</string>
+    <string name="delete">Remove from contacts</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="repassword">Confirm Password</string>
+    <string name="searchinfo">No friends yet? Click menu->Contacts to find your friends!</string>
+    <string name="settinginfo">Will be public to the others! Can be different from your account email!</string>
+    <string name="title_activity_test">Test</string>
+
+
+    <string name="login_register"> New user, tap here to register !</string>
+    <string name="fotografia">Photograph document </string>
+    <string name="register">Register</string>
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+
+
+    <string name ="detalle">
+    <![CDATA[
+    Fotografia.<br><br>
+    <p>por favor tome una fotografía del documento y haga click en ACEPTAR.</p>
+    ]]>
+    </string>
+    <string name="str_para">Para</string>
+    <string name="str_mensajes">Mensaje</string>
+    <string name="str_enviaremos">Enviar</string>
+
+
+    <string name="ble_not_supported" tools:ignore="MissingTranslation">BLE is not supported</string>
+    <string name="label_device_address" tools:ignore="MissingTranslation">Device address:</string>
+    <string name="label_device_name" tools:ignore="MissingTranslation">Name:</string>
+    <string name="label_device_sku" tools:ignore="MissingTranslation">SKU:</string>
+    <string name="label_device_model_name" tools:ignore="MissingTranslation">Model Name:</string>
+    <string name="label_device_manufacturer" tools:ignore="MissingTranslation">Manufacturer:</string>
+    <string name="no_data" tools:ignore="MissingTranslation" >No data</string>
+    <string name="connected" tools:ignore="MissingTranslation">Connected</string>
+    <string name="disconnected" tools:ignore="MissingTranslation">Disconnected</string>
+    <string name="title_devices" tools:ignore="MissingTranslation">BLE Device Scan</string>
+    <string name="title_pairedDevices" tools:ignore="MissingTranslation">Paired Devices</string>
+    <string name="title_readings" tools:ignore="MissingTranslation">Readings</string>
+    <string name="error_bluetooth_not_supported" tools:ignore="MissingTranslation" >Bluetooth not supported.</string>
+    <string name="connecting_tos" tools:ignore="DuplicateDefinition,MissingTranslation">Connected to</string>
+    <string name="waiting_for_data" tools:ignore="MissingTranslation">Waiting for data</string>
+    <string name="adding_device" tools:ignore="MissingTranslation">Adding device</string>
+
+    <string name="unknown_device" tools:ignore="MissingTranslation">Unknown device</string>
+    <string name="add_fail" tools:ignore="MissingTranslation">Failed to add device:</string>
+    <string name="add_success" tools:ignore="MissingTranslation">Device successfully added:</string>
+    <string name="new_data" tools:ignore="MissingTranslation">New data from</string>>
+
+    <!-- Menu items -->
+    <string name="menu_connect" tools:ignore="MissingTranslation">Connect</string>
+    <string name="menu_disconnect" tools:ignore="MissingTranslation">Disconnect</string>
+    <string name="menu_scan" tools:ignore="MissingTranslation">Scan</string>
+    <string name="menu_stop" tools:ignore="MissingTranslation">Stop</string>
+    <string name="menu_add_device" tools:ignore="MissingTranslation">Add Device</string>
+    <string name="menu_devices" tools:ignore="MissingTranslation">Devices</string>
+    <string name="menu_remove" tools:ignore="MissingTranslation">Remove Device</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook_f1gender">Facebook</string>
+    <string name="action_night_mode">Archivo</string>
+    <string name="programado">Programado</string>
+    <string name="urgencia">Urgencia</string>
+    <string name="generafechavisita">Fecha</string>
+    <string name="horavisita">Hora</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_section1">Seccion 1</string>
+    <string name="title_section2">Seccion 2</string>
+    <string name="title_section3">Seccion 3</string>
+    <string name="generafecha">Date</string>
+    <string name="direccion">Address</string>
+    <string name="serviciocat">Service</string>
+    <string name="serviciocattipo">Type Service</string>
+    <string name="observacion">Observation</string>
+    <string name="generarordenEncabezado">Encabezado</string>
+</resources>
