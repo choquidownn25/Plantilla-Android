@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.MainActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,6 +32,31 @@
             android:name=".ui.tab.fragment.TabsActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <activity android:name=".account.activity.LoginActivity"></activity>
+
+        <activity android:name=".account.activity.SignupActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".account.activity.LoginActivity" />
+        </activity>
+
+        <activity android:name=".account.activity.ResetActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".account.activity.LoginActivity" />
+        </activity>
+
+        <!-- Estemeramel inicial -->
+        <activity android:name=".ui.activity.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".account.activity.LoginActivity" />
+        </activity>
 
     </application>
 

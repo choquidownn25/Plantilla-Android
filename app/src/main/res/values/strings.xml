@@ -8,10 +8,21 @@
 
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Registrar</string>
-
+    <string name="action_sign_in">to register</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="action_sign_out" tools:ignore="ExtraTranslation">Sign off</string>
     <string name="action_registre">Registrar</string>
     <string name="action_torre">Escriba la Torre</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_login">LOGIN</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="auth_failed_signup">Authentication failed.</string>
+    <string name="auth_failed_success">Authentication Success.</string>
+    <string name="auth_password">We have sent you instructions to reset your password!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="demo">Demo</string>
     <string name="invalid_email">Esta direccion de email esta invalida</string>
     <string name="invalidadTore">Asignacion de Torre Invalidad</string>
     <string name="invalid_password">Password is too short</string>
@@ -379,8 +390,8 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="menu_devices" tools:ignore="MissingTranslation">Devices</string>
     <string name="menu_remove" tools:ignore="MissingTranslation">Remove Device</string>
     <string name="com_facebook_loginview_logged_in_using_facebook_f1gender">Facebook</string>
-    <string name="action_night_mode">Archivo</string>
-    <string name="programado">Programado</string>
+    <string name="action_night_mode" tools:ignore="MissingTranslation">Archivo</string>
+    <string name="programado" tools:ignore="MissingTranslation">Programado</string>
     <string name="urgencia">Urgencia</string>
     <string name="generafechavisita">Fecha</string>
     <string name="horavisita">Hora</string>

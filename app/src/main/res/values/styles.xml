@@ -81,4 +81,16 @@
     </style>
 
 
+    <style name="WhiteProgress">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="LoginTextField" parent="AppTheme">
+        <item name="colorAccent">#8BC34A</item>
+        <item name="android:textColorHint">#8BC34A</item>
+        <item name="colorControlNormal">#8BC34A</item>
+        <item name="colorControlActivated">#8BC34A</item>
+        <item name="colorControlHighlight">#8BC34A</item>
+    </style>
+
 </resources>
