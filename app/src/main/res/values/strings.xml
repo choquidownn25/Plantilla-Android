@@ -5,7 +5,7 @@
     <string name="videouno">Drhelp! Prueba Piloto en puerto Tejada, Cauca</string>
     <string name="videodos">Drhelp! Aporta a la solución de la problemática del sector Salud</string>
     <string name="videotres">Drhelp! Proyecto por una MEJOR SALUD en Colombia</string>
-
+    <string name="cliente">Name</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">to register</string>
@@ -406,4 +406,5 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="serviciocattipo">Type Service</string>
     <string name="observacion">Observation</string>
     <string name="generarordenEncabezado">Encabezado</string>
+    <string name="codigo">Id</string>
 </resources>

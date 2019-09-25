@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (firebaseAuth.getCurrentUser() != null) {
             // User is logged in
-            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            startActivity(new Intent(LoginActivity.this, PagerActivity.class));
             finish();
         }
         //Retorno de instancia de esta clase
@@ -101,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
                                     }
 
                                 } else {
-                                    LoginActivity.this.startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                    LoginActivity.this.startActivity(new Intent(LoginActivity.this, PagerActivity.class));
                                     LoginActivity.this.finish();
                                 }
                             }

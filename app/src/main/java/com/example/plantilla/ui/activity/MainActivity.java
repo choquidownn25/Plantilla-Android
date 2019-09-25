@@ -2,6 +2,7 @@ package com.example.plantilla.ui.activity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -30,7 +31,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
 
-
+import com.example.plantilla.Perfil.PerfilActivity;
 import com.example.plantilla.R;
 import com.example.plantilla.ui.adapter.CardAdapter;
 import com.example.plantilla.ui.adapter.SectionsPagerAdapter;
@@ -195,6 +196,8 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
 
         if (id == R.id.nav_item_one) {
             // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, PerfilActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_item_two) {
 
         } else if (id == R.id.nav_item_three) {

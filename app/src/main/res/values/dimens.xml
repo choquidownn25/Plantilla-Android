@@ -41,5 +41,6 @@
     <dimen name="user_icon_width">36dp</dimen>
     <dimen name="user_icon_height">36dp</dimen>
     <dimen name="navigation_drawer_width">240dp</dimen>
-
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="statusbar_size">24dp</dimen>
 </resources>

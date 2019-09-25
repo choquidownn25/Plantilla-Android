@@ -382,5 +382,12 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="serviciocattipo">Type Service</string>
     <string name="observacion">Observation</string>
     <string name="generarordenEncabezado">Encabezado</string>
-
+    <string name="urgencia">Urgencia</string>
+    <string name="generafechavisita">Fecha</string>
+    <string name="horavisita">Hora</string>
+    <string name="title_section1">Seccion 1</string>
+    <string name="title_section2">Seccion 2</string>
+    <string name="title_section3">Seccion 3</string>
+    <string name="cliente">Nombre</string>
+    <string name="codigo">Id</string>
 </resources>

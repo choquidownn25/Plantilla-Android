@@ -35,7 +35,7 @@
 
 
         <activity android:name=".account.activity.LoginActivity"></activity>
-
+        <activity android:name=".account.activity.PagerActivity"></activity>
         <activity android:name=".account.activity.SignupActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
@@ -43,11 +43,18 @@
                 android:value=".account.activity.LoginActivity" />
         </activity>
 
+        <activity android:name=".Perfil.PerfilActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".account.activity.LoginActivity" />
+        </activity>
+
         <activity android:name=".account.activity.ResetActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".account.activity.LoginActivity" />
+                android:value="com.example.plantilla.ui.activity.MainActivity" />
         </activity>
 
         <!-- Estemeramel inicial -->
