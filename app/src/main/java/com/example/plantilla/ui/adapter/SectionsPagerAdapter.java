@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.example.plantilla.mapa.activity.MapsActivity;
 import com.example.plantilla.ui.activity.MainActivity_Copidrogras_Col;
 import com.example.plantilla.ui.fragment.PlaceholderFragment;
 import com.example.plantilla.ui.fragment.RecycleSegViewFragment;
@@ -22,13 +23,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
+        // Se llama a getItem para crear una instancia del fragmento para la página dada.
         switch (position) {
             case 0:
 
                 return PlaceholderFragment.newInstance(position);
             case 1:
-                return  MainActivity_Copidrogras_Col.newInstance(position);
+                //return  MainActivity_Copidrogras_Col.newInstance(position);
+            return MapsActivity.newInstance(position);
+
             case 2:
                 return RecycleSegViewFragment.newInstance(position);
             case 3:
@@ -40,7 +43,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 3 total pages.
+        // Mostrar 3  paginas.
         return 4;
     }
 

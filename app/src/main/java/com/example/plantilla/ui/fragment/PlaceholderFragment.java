@@ -32,19 +32,18 @@ import java.util.Arrays;
 
 public class PlaceholderFragment extends Fragment {
 
-      /**
-        * El argumento del fragmento que representa el número de sección para esto.
-        * fragmento.
-      */
+    //<editor-fold desc="Atributos">
+    //Atributos
+    /**
+     * El argumento del fragmento que representa el número de sección para esto.
+     * fragmento.
+     */
     /**
      * Este argumento del fragmento representa el título de cada
      * sección
      */
     public static final String ARG_SECTION_TITLE = "section_number";
     private static final String ARG_SECTION_NUMBER = "section_number";
-
-    //<editor-fold desc="Atributos">
-    //Atributos
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
     RecyclerView.Adapter mAdapter;

@@ -7,7 +7,9 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.GravityCompat;
@@ -21,6 +23,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.SparseArray;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.webkit.WebView;
 import android.widget.ImageView;
@@ -31,6 +34,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
 
+import com.example.plantilla.Orden.ActivityOrden;
 import com.example.plantilla.Perfil.PerfilActivity;
 import com.example.plantilla.R;
 import com.example.plantilla.ui.adapter.CardAdapter;
@@ -92,6 +96,7 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
 
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private CharSequence mTitle;
+    private FloatingActionButton fab;
     //</editor-fold>
 
     @Override
@@ -104,19 +109,15 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         // Crea el adaptador que devolverá un fragmento para cada uno de los tres
         // Secciones primarias de la actividad.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-
         // Configurar el ViewPager con el adaptador de secciones
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-
+        fab = findViewById(R.id.fab);
         tabLayout.setupWithViewPager(mViewPager);
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -124,8 +125,15 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-
-
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+                Intent intent = new Intent(MainActivity.this, ActivityOrden.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void onBackPressed() {
@@ -150,7 +158,6 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
         sPhotoCache.put(resId, bitmap);
         imageView.setImageBitmap(bitmap);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -214,4 +221,5 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }

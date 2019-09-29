@@ -44,7 +44,7 @@
     <string name="aCorreo">Correo Electrónico</string>
     <string name="apContra">Contraseña</string>
     <string name="apAcepto">Acepto los términos, condiciones y políticas de privacidad</string>
-    <string name="apEnviar">ENVIAR</string>
+    <string name="apEnviar">Enviar</string>
     <string name="action_settings">Cerrar Sesion</string>
     <string name="action_settings_video">Configuracion Video</string>
     <string name="section_format">Hello World from section: %1$d</string>
@@ -390,4 +390,25 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="title_section3">Seccion 3</string>
     <string name="cliente">Nombre</string>
     <string name="codigo">Id</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="route_distance">Distancia</string>
+    <string name="route_distance_value">40.2 Km</string>
+    <string name="route_duration">Duración</string>
+    <string name="route_duration_value">48 mins</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+    <string name="toast_location">Locations</string>
+    <string name="toast_bzzzt">Cordenadas</string>
+    <string name="toast_camera">Camara</string>
+    <string name="toast_contacts">Contactos</string>
+    <string name="error_permission_map">Error de permisos</string>
+    <string name="orden">Orden de servicio</string>
+    <string name="tipoordenservicio">Tipo Servicio</string>
+    <string name="escojerservicio">Seleccione Servicio</string>
+    <string name="urgencias">Urgency</string>
+    <string name="urgenciaprogramada">Urgencia Programada</string>
+    <string name="saludo">Bienvenido</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="subtotal">Sub Total</string>
+    <string name="iva">Iva</string>
 </resources>

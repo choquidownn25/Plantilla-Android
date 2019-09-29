@@ -407,4 +407,26 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="observacion">Observation</string>
     <string name="generarordenEncabezado">Encabezado</string>
     <string name="codigo">Id</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="route_distance">Distance</string>
+    <string name="route_distance_value">40.2 Km</string>
+    <string name="route_duration">Duration</string>
+    <string name="route_duration_value">48 mins</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+    <string name="toast_location">Locations</string>
+    <string name="toast_bzzzt">Cordenadas</string>
+    <string name="toast_camera">Camara</string>
+    <string name="toast_contacts">Contactos</string>
+    <string name="error_permission_map">Error de permisos</string>
+    <string name="orden">Service Order</string>
+    <string name="tipoordenservicio">Type Service</string>
+    <string name="escojerservicio">Select Service</string>
+    <string name="urgencias">Urgency</string>
+    <string name="urgenciaprogramada">Scheduled Urgency</string>
+    <string name="saludo">Welcome</string>
+    <string name="aceptar">Acept</string>
+    <string name="subtotal">Sub Total</string>
+    <string name="iva">Tax</string>
+
 </resources>
