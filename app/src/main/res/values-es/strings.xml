@@ -385,9 +385,9 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="urgencia">Urgencia</string>
     <string name="generafechavisita">Fecha</string>
     <string name="horavisita">Hora</string>
-    <string name="title_section1">Seccion 1</string>
-    <string name="title_section2">Seccion 2</string>
-    <string name="title_section3">Seccion 3</string>
+    <string name="title_section1">Autos</string>
+    <string name="title_section2">Vuelos</string>
+    <string name="title_section3">Bus</string>
     <string name="cliente">Nombre</string>
     <string name="codigo">Id</string>
 
@@ -411,4 +411,11 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="aceptar">Aceptar</string>
     <string name="subtotal">Sub Total</string>
     <string name="iva">Iva</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="user">Usuario</string>
+    <string name="salir">Salir</string>
+    <string name="seccion3">Section 3</string>
+    <string name="seccion2">Section 2</string>
+    <string name="seccion1">Section 1</string>
+    <string name="seccion4">Seleccion 4</string>
 </resources>

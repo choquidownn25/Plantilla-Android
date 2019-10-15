@@ -119,9 +119,8 @@ public class PlaceholderFragment extends Fragment {
             }
         });
 
-        alName = new ArrayList<>(Arrays.asList(getString(R.string.apBotomHistoriaClinica), getString(R.string.apExamenes), getString(R.string.apCitasMedicas), getString(R.string.apCuidaSalud),  getString(R.string.pref_fps_title)));
-        alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible,
-                R.drawable.cuidsalud, R.drawable. consulta));
+        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.seccion3), getString(R.string.seccion4)));
+        alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible, R.drawable.consulta));
 
 
         // Llama el RecyclerView

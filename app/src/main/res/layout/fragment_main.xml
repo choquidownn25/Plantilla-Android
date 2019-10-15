@@ -21,7 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/activity_horizontal_margin"
-            android:src="@mipmap/ic_launcher"/>
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launchert"/>
 
     </com.github.captain_miao.optroundcardview.OptRoundCardView>
     <View
@@ -40,7 +41,7 @@
         android:layout_height="120dp"
         android:background="#3d8eb9"
         android:drawableLeft="@drawable/icono2"
-        android:text="@string/botonconculta"
+        android:text="@string/ofertas"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -59,7 +60,7 @@
             android:id="@+id/section_labe2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
+            android:visibility="invisible"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="center card"/>
 
@@ -80,16 +81,18 @@
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         app:optRoundCardCornerRadius="8dp"
+
         app:optRoundCardLeftTopCorner="false"
         app:optRoundCardRightTopCorner="false"
         app:optRoundCardTopEdges="false">
 
         <ImageView
             android:id="@+id/section_labe3"
+            android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:src="@mipmap/ic_launcher"/>
+
+            android:src="@drawable/ic_launchert"/>
 
     </com.github.captain_miao.optroundcardview.OptRoundCardView>
 

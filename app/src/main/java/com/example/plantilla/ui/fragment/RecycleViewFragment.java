@@ -48,20 +48,20 @@ public class RecycleViewFragment extends Fragment {
         mRecyclerView.setHasFixedSize(true);
 
         mAdapter = new SimpleAdapter();
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
-        mAdapter.add("jordyamc");
+        mAdapter.add("Cali - Bogota");
+        mAdapter.add("Cali - Medellin");
+        mAdapter.add("Cali - Popayan");
+        mAdapter.add("Cali - Pereira");
+        mAdapter.add("Cali - Manizales");
+        mAdapter.add("Cali - Barranquilla");
+        mAdapter.add("Cali - Cartagenra");
+        mAdapter.add("Cali - Sincelejo");
+        mAdapter.add("Cali - Riohacha");
+        mAdapter.add("Cali - Valledupar");
+        mAdapter.add("Cali - Cucuta");
+        mAdapter.add("Cali - Bucaramanga");
+        mAdapter.add("Cali - Tunja");
+        mAdapter.add("Cali - Villavicencio");
         mRecyclerView.setAdapter(mAdapter);
 
         return rootView;

@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/email"
                     android:inputType="textAutoComplete"
-                    android:maxLength="15"
+                    android:maxLength="256"
                     android:maxLines="1"
                     android:textColor="#8BC34A"
                     android:textColorHint="#8BC34A" />

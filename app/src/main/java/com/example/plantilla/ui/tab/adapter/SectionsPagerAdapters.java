@@ -43,13 +43,13 @@ public class SectionsPagerAdapters extends FragmentPagerAdapter {
 
         switch (position) {
             case 0:
-                section = "Seccion 1";
+                section = "Autos";
                 break;
             case 1:
-                section = "Seccion 2";
+                section = "Vuelos";
                 break;
             case 2:
-                section = "Seccion 3";
+                section = "Buses";
                 break;
         }
         return section;

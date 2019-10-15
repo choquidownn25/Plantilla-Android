@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.plantilla.R;
+import com.example.plantilla.camara.Camara;
 import com.example.plantilla.ui.activity.MainActivity;
 import com.example.plantilla.ui.activity.MainActivityOrden;
 import com.example.plantilla.ui.activity.MainActivityRecicleview;
@@ -67,7 +68,9 @@ public class GridAdapter extends  RecyclerView.Adapter<GridAdapter.ViewHolder> {
                     } else  if (position == 2){
                         //Aca esta el tab layout
 
+                        context.startActivity(new Intent(context, Camara.class));
                         Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
+
                     }else if (position == 3){
                         //Radio grafia  MainActivityVideoYoutube
 

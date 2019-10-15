@@ -205,7 +205,7 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
             // Handle the camera action
             Intent intent = new Intent(MainActivity.this, PerfilActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_item_two) {
+        } /*else if (id == R.id.nav_item_two) {
 
         } else if (id == R.id.nav_item_three) {
 
@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
 
         } else if (id == R.id.nav_item_six) {
 
-        }
+        }*/
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

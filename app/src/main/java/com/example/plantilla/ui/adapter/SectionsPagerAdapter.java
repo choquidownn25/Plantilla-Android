@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.example.plantilla.mapa.activity.MapActivity;
 import com.example.plantilla.mapa.activity.MapsActivity;
 import com.example.plantilla.ui.activity.MainActivity_Copidrogras_Col;
 import com.example.plantilla.ui.fragment.PlaceholderFragment;
@@ -30,7 +31,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return PlaceholderFragment.newInstance(position);
             case 1:
                 //return  MainActivity_Copidrogras_Col.newInstance(position);
-            return MapsActivity.newInstance(position);
+                return MapsActivity.newInstance(position);
+                //return MapActivity.newInstance(position);  MapasActivity
 
             case 2:
                 return RecycleSegViewFragment.newInstance(position);
@@ -51,13 +53,13 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Top corner";
+                return "Lista de ofertas";
             case 1:
-                return "Bottom corner";
+                return "Geolocalización";
             case 2:
-                return "Full corner";
+                return "Estado del servicio";
             case 3:
-                return "RecycleView";
+                return "Calcular Costo";
         }
         return null;
     }

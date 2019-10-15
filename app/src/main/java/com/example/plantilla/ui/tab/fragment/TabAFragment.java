@@ -49,16 +49,16 @@ public class TabAFragment extends Fragment {
     private static final String TAG = "TabAFragment";
     private AndroidFlavorAdapter flavorAdapter;
     AndroidFlavor[] androidFlavors = {
-            new AndroidFlavor("Cupcake", "1.5", R.drawable.cupcake),
-            new AndroidFlavor("Donut", "1.6", R.drawable.donut),
-            new AndroidFlavor("Eclair", "2.0-2.1", R.drawable.eclair),
-            new AndroidFlavor("Froyo", "2.2-2.2.3", R.drawable.froyo),
-            new AndroidFlavor("GingerBread", "2.3-2.3.7", R.drawable.gingerbread),
-            new AndroidFlavor("Honeycomb", "3.0-3.2.6", R.drawable.honeycomb),
-            new AndroidFlavor("Ice Cream Sandwich", "4.0-4.0.4", R.drawable.icecream),
-            new AndroidFlavor("Jelly Bean", "4.1-4.3.1", R.drawable.jellybean),
-            new AndroidFlavor("KitKat", "4.4-4.4.4", R.drawable.kitkat),
-            new AndroidFlavor("Lollipop", "5.0-5.1.1", R.drawable.lollipop)
+            new AndroidFlavor("Cali", "1500", R.drawable.cupcake),
+            new AndroidFlavor("Medellin", "1600", R.drawable.donut),
+            new AndroidFlavor("Bogota", "2000", R.drawable.eclair),
+            new AndroidFlavor("Barraquilla", "2222", R.drawable.froyo),
+            new AndroidFlavor("Manizales", "2370", R.drawable.gingerbread),
+            new AndroidFlavor("Pereira", "3032", R.drawable.honeycomb),
+            new AndroidFlavor("Bucaramanga", "4040", R.drawable.icecream),
+            new AndroidFlavor("Cucuta", "4143", R.drawable.jellybean),
+            new AndroidFlavor("Ibague", "4444", R.drawable.kitkat),
+            new AndroidFlavor("Armenia", "5051", R.drawable.lollipop)
     };
 
     public TabAFragment() {

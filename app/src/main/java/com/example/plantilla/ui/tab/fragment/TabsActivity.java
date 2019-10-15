@@ -1,6 +1,7 @@
 package com.example.plantilla.ui.tab.fragment;
 
 import android.support.annotation.Nullable;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -42,7 +43,7 @@ public class TabsActivity  extends AppCompatActivity implements ActionBar.TabLis
      * The {@link ViewPager} que albergará los contenidos de la sección.
      */
     private ViewPager mViewPager;
-
+    private CollapsingToolbarLayout collapsingToolbarLayout = null;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,8 +58,15 @@ public class TabsActivity  extends AppCompatActivity implements ActionBar.TabLis
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+
     }
 
     @Override
