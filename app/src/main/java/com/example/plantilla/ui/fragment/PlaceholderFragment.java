@@ -101,7 +101,7 @@ public class PlaceholderFragment extends Fragment {
                 roundCardView = (OptRoundCardView) rootView.findViewById(R.id.bottom_card_view);
                 roundCardView.showCorner(false, false, false, false);
                 break;
-            //Otro botom de las cita
+            //Otro botom de las cita sqllite
             case 2:
                 roundCardView = (OptRoundCardView) rootView.findViewById(R.id.top_card_view);
                 roundCardView.showCorner(false, false, false, false);
@@ -119,7 +119,7 @@ public class PlaceholderFragment extends Fragment {
             }
         });
 
-        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.seccion3), getString(R.string.seccion4)));
+        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.camara), getString(R.string.sqllite)));
         alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible, R.drawable.consulta));
 
 

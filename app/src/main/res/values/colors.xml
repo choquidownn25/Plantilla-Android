@@ -316,4 +316,11 @@
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#737373</color>
     <color name="colorMap">#FAE6D6</color>
+
+    <color name="colorBackground">#800</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#FFF</color>
+    <color name="colorGrey">#61d215</color>
+    <color name="divider">#FFF</color>
+
 </resources>

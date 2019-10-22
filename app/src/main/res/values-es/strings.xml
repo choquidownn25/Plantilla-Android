@@ -418,4 +418,30 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="seccion2">Section 2</string>
     <string name="seccion1">Section 1</string>
     <string name="seccion4">Seleccion 4</string>
+
+    <string name="hint_id">ID</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirma Contraseña</string>
+    <string name="beneficiaryaddress">Direccion</string>
+    <string name="beneficiarycountry">Pais</string>
+    <string name="register_benef">Registro Beneficiario</string>
+    <string name="show_list_benef">Lista de Registro Beneficiario</string>
+    <string name="error_email_exists">Email ya existe</string>
+    <string name="error_message_name">Ingrese el nombre completo</string>
+    <string name="error_message_email">Ingrese un email valido</string>
+
+    <string name="hint_name">Nombre</string>
+    <string name="sqllite">SQLite</string>
+    <string name="camara">Camara</string>
+    <string name="valornull">Enter data in ID</string>
+    <string name="addempleados">Add a new Employee</string>
+
+    <array name="departments">
+        <item>Technical</item>
+        <item>Support</item>
+        <item>Research and Development</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+    </array>
 </resources>

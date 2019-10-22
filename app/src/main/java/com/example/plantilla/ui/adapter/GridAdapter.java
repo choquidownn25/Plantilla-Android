@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.plantilla.R;
 import com.example.plantilla.camara.Camara;
+import com.example.plantilla.sqllite.activity.MainActivitySQLite;
 import com.example.plantilla.ui.activity.MainActivity;
 import com.example.plantilla.ui.activity.MainActivityOrden;
 import com.example.plantilla.ui.activity.MainActivityRecicleview;
@@ -73,7 +74,7 @@ public class GridAdapter extends  RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
                     }else if (position == 3){
                         //Radio grafia  MainActivityVideoYoutube
-
+                        context.startActivity(new Intent(context, MainActivitySQLite.class));
                         Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
                     } else if (position== 4){
                         Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
