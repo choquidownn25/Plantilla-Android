@@ -119,8 +119,8 @@ public class PlaceholderFragment extends Fragment {
             }
         });
 
-        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.camara), getString(R.string.sqllite)));
-        alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible, R.drawable.consulta));
+        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.camara), getString(R.string.sqllite), getString(R.string.sqllite)));
+        alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible, R.drawable.consulta, R.drawable.cuidsalud));
 
 
         // Llama el RecyclerView

@@ -190,6 +190,20 @@
                 android:value=".sqllite.activity.MainActivitySQLite" />
         </activity>
 
+            <activity android:name=".sqllite.activity.MainActivityEmpleado">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+
+        <activity android:name=".sqllite.activity.EmployeeActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sqllite.activity.MainActivityEmpleado" />
+        </activity>
+
         <service android:name=".fcm.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

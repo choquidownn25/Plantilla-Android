@@ -435,7 +435,13 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="sqllite">SQLite</string>
     <string name="camara">Camara</string>
     <string name="valornull">Enter data in ID</string>
-    <string name="addempleados">Add a new Employee</string>
+    <string name="addempleados">Agrega nuevo empleado</string>
+    <string name="ingempleado">Ingrese el nombre del empleado</string>
+    <string name="selectdepartamento">Seleccionar departamento</string>
+    <string name="empleadosalario">Ingresar salario del empleado</string>
+    <string name="addfotos">Agregar empleado</string>
+    <string name="verempleado">Ver empleados</string>
+    <string name="update">Actualizar</string>
 
     <array name="departments">
         <item>Technical</item>

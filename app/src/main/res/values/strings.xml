@@ -454,6 +454,12 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="camara">Camara</string>
     <string name="valornull">Enter data in ID</string>
     <string name="addempleados">Add a new Employee</string>
+    <string name="ingempleado">Enter Employee Name</string>
+    <string name="selectdepartamento">Select Department</string>
+    <string name="empleadosalario">Enter Employee Salary</string>
+    <string name="addfotos">Add Employee</string>
+    <string name="verempleado">View Employees</string>
+    <string name="update">Update</string>
 
     <array name="departments">
         <item>Technical</item>
