@@ -86,13 +86,15 @@
         app:optRoundCardRightTopCorner="false"
         app:optRoundCardTopEdges="false">
 
-        <ImageView
-            android:id="@+id/section_labe3"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:layout_width="wrap_content"
+        <ImageButton
+            android:id="@+id/videollamda"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_launchert" />
 
-            android:src="@drawable/ic_launchert"/>
 
     </com.github.captain_miao.optroundcardview.OptRoundCardView>
 

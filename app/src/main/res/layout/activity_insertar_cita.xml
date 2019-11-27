@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal">
+        <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <ScrollView
+
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#2582C5"
+                android:orientation="vertical"
+                >
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:background="#e8e8e7"
+                    android:orientation="horizontal"
+                    android:layout_alignParentTop="true">
+
+
+                    <TextView android:layout_width="287dp"
+                        android:layout_height="wrap_content"
+                        android:text="Reserve Cita Medica"
+                        android:textColor="#2582C5"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:textAlignment="center" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/greybackground"
+                    >
+
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Documento"
+                        android:id="@+id/txtdocumento"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:autoText="false"
+                        android:background="#f3f3f3"
+                        android:textColor="#2582C5" />
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Nombre"
+                        android:id="@+id/txtnombre"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="5dp"
+                        android:background="#f3f3f3"
+                        android:textColor="#2582C5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        />
+
+
+
+                    <Spinner
+                        android:id="@+id/spnCategoria"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="5dp"
+                        android:background="#f3f3f3"
+                        android:textColor="#2582C5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        />
+
+
+
+
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Fecha cita"
+                        android:id="@+id/txtfichacita"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#2582C5" />
+
+                    <!--
+                    <DatePicker
+                        android:id="@+id/datePicker"
+                        android:layout_below="@id/timeButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="300dp"
+                        android:hint="Fecha"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#2582C5"
+                        android:startYear="2014"
+                        android:endYear="2020"
+                        tools:ignore="UnknownId"
+                        android:layout_centerHorizontal="true"
+                        /> -->
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Hora Cita"
+                        android:id="@+id/txttiempo"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#2582C5" />
+
+
+                    <!--
+                    <TimePicker
+                        android:id="@+id/timePicker1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:hint="Hora"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#2582C5"/> -->
+
+
+                    <Button android:layout_width="190dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:text="Enviar"
+                        android:id="@+id/enviar"
+                        android:textColor="#fff"
+                        android:background="@drawable/btn"/>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/p_add12"
+            />
+
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

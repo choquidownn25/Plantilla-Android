@@ -16,12 +16,12 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.plantilla.R;
-import com.example.plantilla.ui.activity.ContainerActivity;
 import com.example.plantilla.ui.adapter.GridAdapter;
 import com.example.plantilla.ui.adapter.GridViewAdapter;
 import com.example.plantilla.ui.tab.fragment.TabsActivity;
+import com.example.plantilla.utilidad.Container;
 import com.github.captain_miao.optroundcardview.OptRoundCardView;
-
+import com.example.plantilla.sinch.push.LoginActivity;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -63,6 +63,7 @@ public class PlaceholderFragment extends Fragment {
     private Context context;
     private Activity contexts;
     private Context contexto;
+    private ImageButton imageButton;
     //</editor-fold>
 
     public PlaceholderFragment() {
@@ -109,7 +110,7 @@ public class PlaceholderFragment extends Fragment {
             default:
                 break;
         }
-
+        imageButton = (ImageButton) rootView.findViewById(R.id.videollamda);
         Button button = (Button)rootView.findViewById(R.id.actualizar);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,7 +120,13 @@ public class PlaceholderFragment extends Fragment {
             }
         });
 
-        alName = new ArrayList<>(Arrays.asList(getString(R.string.seccion1), getString(R.string.seccion2), getString(R.string.camara), getString(R.string.sqllite), getString(R.string.sqllite)));
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context.startActivity(new Intent(context, LoginActivity.class));
+            }
+        });
+        alName = new ArrayList<>(Arrays.asList(getString(R.string.chat), getString(R.string.seccion2), getString(R.string.camara), getString(R.string.sqllite), getString(R.string.sqllite)));
         alImage = new ArrayList<>(Arrays.asList(R.drawable.histoclinica, R.drawable.examen, R.drawable.disponible, R.drawable.consulta, R.drawable.cuidsalud));
 
 

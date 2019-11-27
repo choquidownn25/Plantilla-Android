@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:titleTextColor="#FFFFFF"
+        android:background="@color/blue"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="@drawable/ic_launchert"
+        >
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/texto_contador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/paisesu"
+        android:textAlignment="center"
+        android:textColor="#2683c2"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:drawableBottom="@drawable/ca"
+        android:onClick="selectFrag"
+        android:text="Canada"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/co"
+        android:onClick="selectFrag"
+        android:text="Colombia"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:textColor="#fff"
+        android:drawableBottom="@drawable/ca"
+        android:text="Canada"
+        android:onClick="selectFrag" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/co"
+        android:onClick="selectFrag"
+        android:text="Colombia"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:textColor="#fff"
+        android:onClick="selectFrag"
+        android:drawableBottom="@drawable/co"
+        android:text="Colombia" />
+
+    <fragment
+        android:name="com.example.plantilla.idioma.FragmentOne"
+        android:id="@+id/fragment_place"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

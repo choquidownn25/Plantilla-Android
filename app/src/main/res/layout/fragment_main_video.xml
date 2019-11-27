@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.captain_miao.optionroundcardview.MainActivity$PlaceholderFragment">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorAccent"/>
+    <com.github.captain_miao.optroundcardview.OptRoundCardView
+        android:id="@+id/bottom_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        app:optRoundCardCornerRadius="8dp"
+        app:optRoundCardLeftTopCorner="false"
+        app:optRoundCardRightTopCorner="false"
+        app:optRoundCardTopEdges="false">
+        <!--
+        <TextView
+            android:id="@+id/section_labe3"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bottom card"/> -->
+
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+
+
+    <com.github.captain_miao.optroundcardview.OptRoundCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:optRoundCardCornerRadius="0dp"
+        app:optRoundCardTopEdges="false"
+        app:optRoundCardBottomEdges="false">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="2.5dp"
+            android:paddingRight="2.5dp"
+            tools:context=".MainActivity">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+
+
+</LinearLayout>

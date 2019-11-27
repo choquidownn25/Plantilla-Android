@@ -10,4 +10,23 @@
         android:checked="true"
         app:showAsAction="never"
         />
+
+    <item android:id="@+id/edita"
+        android:title="Cuenta"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/edits"
+        android:title="Ayuda"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/edit"
+        android:title="@string/action_settings"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource" />
+
 </menu>

@@ -26,6 +26,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.webkit.WebView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private CharSequence mTitle;
     private FloatingActionButton fab;
+    private ImageButton imageButton;
     //</editor-fold>
 
     @Override
@@ -222,4 +224,6 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
         return true;
     }
 
+    public void showText(String topText, String bottomText) {
+    }
 }

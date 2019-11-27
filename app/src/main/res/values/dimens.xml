@@ -43,4 +43,6 @@
     <dimen name="navigation_drawer_width">240dp</dimen>
     <dimen name="activity_margin_half">8dp</dimen>
     <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="appbar_padding">16dp</dimen>
 </resources>

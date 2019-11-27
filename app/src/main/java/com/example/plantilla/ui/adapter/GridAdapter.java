@@ -20,7 +20,7 @@ import com.example.plantilla.ui.activity.MainActivityOrden;
 import com.example.plantilla.ui.activity.MainActivityRecicleview;
 import com.example.plantilla.ui.fragment.PlaceholderFragment;
 import com.example.plantilla.ui.interfaces.ItemClickListener;
-
+import com.example.plantilla.sinch.message.ui.activity.LoginActivity;
 import java.util.ArrayList;
 
 public class GridAdapter extends  RecyclerView.Adapter<GridAdapter.ViewHolder> {
@@ -56,7 +56,7 @@ public class GridAdapter extends  RecyclerView.Adapter<GridAdapter.ViewHolder> {
             public void onClick(View view, int position, boolean isLongClick) {
                 if (isLongClick) {
                     Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
-                    context.startActivity(new Intent(context, MainActivity.class));
+                    context.startActivity(new Intent(context, LoginActivity.class));
                 } else {
                     //Evalua el que escoja
                     if (position == 0) {

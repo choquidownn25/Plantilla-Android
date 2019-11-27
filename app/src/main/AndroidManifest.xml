@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.plantilla">
 
+
     <uses-feature android:name="android.hardware.camera"/>
     <uses-feature android:name="android.hardware.camera.autofocus"/>
     <uses-feature
@@ -28,9 +29,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
     <permission
-        android:name="net.proyecto.sigti.permission.MAPS_RECEIVE"
+        android:name="com.example.plantilla.permission.MAPS_RECEIVE"
         android:protectionLevel="signature"/>
-    <uses-permission android:name="net.proyecto.sigti.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.example.plantilla.permission.MAPS_RECEIVE"/>
 
     <uses-permission android:name="android.permission.READ_LOGS"
         tools:ignore="ProtectedPermissions" />
@@ -44,7 +45,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-feature android:name="android.hardware.camera.flash"/>
-
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" >
     </uses-permission>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
@@ -62,10 +64,10 @@
        com.androidhive.pushnotifications
        -->
     <permission
-        android:name="org.appspot.apprtc.permission.C2D_MESSAGE"
+        android:name="com.example.plantilla.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.appspot.apprtc.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.example.plantilla.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -83,7 +85,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -125,6 +128,7 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".account.activity.LoginActivity" />
         </activity>
+        <activity android:name=".ui.activity.GraficoActivity" android:label="@string/app_name"></activity>
 
         <activity android:name=".account.activity.ResetActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -190,7 +194,7 @@
                 android:value=".sqllite.activity.MainActivitySQLite" />
         </activity>
 
-            <activity android:name=".sqllite.activity.MainActivityEmpleado">
+        <activity android:name=".sqllite.activity.MainActivityEmpleado">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -203,6 +207,44 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".sqllite.activity.MainActivityEmpleado" />
         </activity>
+        <activity android:name=".utilidad.Container" android:label="@string/app_name"></activity>
+
+
+
+        <activity android:name=".webrtc.localizacion.MainActivityLocalizacion" android:label="@string/app_name"></activity>
+
+
+        <service android:name=".sinch.config.util.SinchService"></service>
+        <service android:name=".sinch.config.util.SinchServices"></service>
+        <service
+            android:name=".sinch.fcm.FcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".sinch.push.CallScreenActivity"/>
+        <activity android:name=".sinch.push.IncomingCallScreenActivity" android:screenOrientation="portrait"
+            android:noHistory="true"/>
+        <activity android:name=".sinch.push.PlaceCallActivity" android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".sinch.push.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"> </activity>
+
+        <activity
+            android:name=".sinch.message.ui.activity.MessagingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"> </activity>
+
+        <activity
+            android:name=".sinch.message.ui.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"> </activity>
 
         <service android:name=".fcm.MyFirebaseMessagingService">
             <intent-filter>
