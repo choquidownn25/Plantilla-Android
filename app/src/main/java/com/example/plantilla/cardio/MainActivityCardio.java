@@ -13,6 +13,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -38,7 +42,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * Created by choqu_000 on 19/07/2016.
  */
-public class MainActivityCardio extends Activity {
+public class MainActivityCardio extends AppCompatActivity {
     //Atributos
     private Timer timer = new Timer();//Tiempo
     private TimerTask task;
@@ -74,7 +78,7 @@ public class MainActivityCardio extends Activity {
     private static int averageIndex = 0;
     private static final int averageArraySize = 4;
     private static final int[] averageArray = new int[averageArraySize];
-
+    private CollapsingToolbarLayout collapsingToolbarLayout = null;
 
     /**
      * Tipo de enumeración
@@ -106,6 +110,14 @@ public class MainActivityCardio extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_cardio_grafica);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        collapsingToolbarLayout.setTitle(getResources().getString(R.string.saludo) );
 
         initConfig();
     }

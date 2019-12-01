@@ -201,6 +201,13 @@
                 android:value=".ui.activity.MainActivity" />
         </activity>
 
+        <activity android:name=".cardio.MainActivityCardio" android:label="@string/app_name" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+
         <activity android:name=".sqllite.activity.EmployeeActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data

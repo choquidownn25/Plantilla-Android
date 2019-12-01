@@ -3,7 +3,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-
+<!--
     <com.github.captain_miao.optroundcardview.OptRoundCardView
         android:id="@+id/top_card_view"
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:src="@drawable/ic_launchert"/>
 
-    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>-->
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -61,7 +61,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:visibility="invisible"
-            android:padding="@dimen/activity_horizontal_margin"
+            android:padding="@dimen/button_elevation"
             android:text="center card"/>
 
     </com.github.captain_miao.optroundcardview.OptRoundCardView>
@@ -88,12 +88,13 @@
 
         <ImageButton
             android:id="@+id/videollamda"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffff"
             android:padding="@dimen/activity_horizontal_margin"
             android:scaleType="fitStart"
-            android:src="@drawable/ic_launchert" />
+
+            android:src="@drawable/ic_launchertvideo" />
 
 
     </com.github.captain_miao.optroundcardview.OptRoundCardView>

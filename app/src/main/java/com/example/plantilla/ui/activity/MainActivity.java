@@ -38,6 +38,7 @@ import android.support.v4.app.FragmentManager;
 import com.example.plantilla.Orden.ActivityOrden;
 import com.example.plantilla.Perfil.PerfilActivity;
 import com.example.plantilla.R;
+import com.example.plantilla.cardio.MainActivityCardio;
 import com.example.plantilla.ui.adapter.CardAdapter;
 import com.example.plantilla.ui.adapter.SectionsPagerAdapter;
 import com.example.plantilla.ui.fragment.PlaceholderFragment;
@@ -176,6 +177,20 @@ public class MainActivity extends AppCompatActivity  implements CardAdapter.List
                 sIsNight = !sIsNight;
                 if(sIsNight) {
                     getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                } else {
+                    getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                }
+                mMenuItem.setChecked(sIsNight);
+                return true;
+            }
+
+
+            case R.id.action_settings: {
+                sIsNight = !sIsNight;
+                if(sIsNight) {
+                    Intent about = new Intent(getApplicationContext(), MainActivityCardio.class);
+                    startActivity(about);
+
                 } else {
                     getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                 }
