@@ -552,4 +552,12 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="paisesu">Paises donde estamos ubicados</string>
 
 
+    <string name="enter_name">Nombre Pais</string>
+    <string name="add_record">Agregar registro</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="empty_list_text">Reistro no encontrado</string>
+    <string name="enter_desc">Moneda</string>
+    <string name="enter_title">Pais</string>
+    <string name="recicleviews">Recicleviews</string>
 </resources>
