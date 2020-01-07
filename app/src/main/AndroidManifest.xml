@@ -274,6 +274,29 @@
                 android:value=".ui.activity.MainActivity" />
 
         </activity>
+
+        <activity android:name=".sqllite.activity.MainActivityArticulo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+        </activity>
+        <activity android:name=".sqllite.activity.AddArticuloActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+
+        </activity>
+        <activity android:name=".sqllite.activity.ModifyArticuloActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.MainActivity" />
+
+        </activity>
+
         <service android:name=".fcm.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

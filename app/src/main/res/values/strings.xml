@@ -579,4 +579,10 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="enter_desc">Currency</string>
     <string name="enter_title">Country</string>
     <string name="recicleviews">Recicleviews</string>
+    <string name="numero">Number</string>
+    <string name="names">Name :</string>
+    <string name="descripcion">Descriptions</string>
+    <string name="active">Active</string>
+    <string name="enter_nombre">Name</string>
+    <string name="enter_descripcion">Description</string>
 </resources>

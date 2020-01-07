@@ -6,39 +6,42 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+
 import com.example.plantilla.R;
+import com.example.plantilla.sqllite.database.DBArticulo;
 import com.example.plantilla.sqllite.database.DBManager;
 
-public class ModifyPaisActivity extends AppCompatActivity implements OnClickListener {
-
+public class ModifyArticuloActivity extends AppCompatActivity implements View.OnClickListener {
     //<editor-fold desc="Atributos">
     private EditText titleText;
     private Button updateBtn, deleteBtn;
     private EditText descText;
+    private CheckBox checkBox3;
     private long _id;
     private DBManager dbManager;
+    private DBArticulo dbArticulo;
     private CollapsingToolbarLayout collapsingToolbarLayout = null;
     //</editor-fold>
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setTitle("Modify Record");
 
-        setContentView(R.layout.activity_modify_record_sqllite_articulo);
+        setContentView(R.layout.activity_modify_record);
 
-        dbManager = new DBManager(this);
-        dbManager.open();
+        dbArticulo = new DBArticulo(this);
+        dbArticulo.open();
 
         titleText = (EditText) findViewById(R.id.subject_edittext);
         descText = (EditText) findViewById(R.id.description_edittext);
-
+        //checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
         updateBtn = (Button) findViewById(R.id.btn_update);
         deleteBtn = (Button) findViewById(R.id.btn_delete);
 
@@ -56,17 +59,17 @@ public class ModifyPaisActivity extends AppCompatActivity implements OnClickList
         String id = intent.getStringExtra("id");
         String name = intent.getStringExtra("title");
         String desc = intent.getStringExtra("desc");
-
+        //boolean datoAct = Boolean.parseBoolean(intent.getStringExtra("activo"));
         _id = Long.parseLong(id);
 
         titleText.setText(name);
         descText.setText(desc);
+        //checkBox3.setChecked(datoAct);
 
         updateBtn.setOnClickListener(this);
         deleteBtn.setOnClickListener(this);
     }
 
-    //Click
     @Override
     public void onClick(View v) {
 
@@ -74,21 +77,23 @@ public class ModifyPaisActivity extends AppCompatActivity implements OnClickList
             case R.id.btn_update:
                 String title = titleText.getText().toString();
                 String desc = descText.getText().toString();
-
-                dbManager.update(_id, title, desc);
+                //boolean activo = checkBox3.isChecked();
+                dbArticulo.update(_id, title, desc);
                 this.returnHome();
                 break;
 
             case R.id.btn_delete:
-                dbManager.delete(_id);
+                dbArticulo.delete(_id);
                 this.returnHome();
                 break;
         }
     }
+
     //Retorno al inicio
     public void returnHome() {
         Intent home_intent = new Intent(getApplicationContext(), ModifyArticuloActivity.class)
                 .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(home_intent);
     }
+
 }

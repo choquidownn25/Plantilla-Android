@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.plantilla.R;
 import com.example.plantilla.camara.Camara;
+import com.example.plantilla.sqllite.activity.MainActivityArticulo;
 import com.example.plantilla.sqllite.activity.MainActivityEmpleado;
 import com.example.plantilla.sqllite.activity.MainActivityPais;
 import com.example.plantilla.sqllite.activity.MainActivitySQLite;
@@ -81,6 +82,9 @@ public class GridAdapter extends  RecyclerView.Adapter<GridAdapter.ViewHolder> {
                     } else if (position== 4){
                         Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
                         context.startActivity(new Intent(context, MainActivityEmpleado.class));
+                    } else if (position== 5){
+                        Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
+                        context.startActivity(new Intent(context, MainActivityArticulo.class));
                     } else {
                         Toast.makeText(context, "#" + position + " - " + alName.get(position) + " (Long click)", Toast.LENGTH_SHORT).show();
                         context.startActivity(new Intent(context, MainActivityPais.class));

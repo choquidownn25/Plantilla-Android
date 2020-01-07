@@ -560,4 +560,10 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="enter_desc">Moneda</string>
     <string name="enter_title">Pais</string>
     <string name="recicleviews">Recicleviews</string>
+    <string name="numero">Numero</string>
+    <string name="names">Nombre :</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="active">Activo</string>
+    <string name="enter_nombre">Nombre</string>
+    <string name="enter_descripcion">Descripcion</string>
 </resources>
