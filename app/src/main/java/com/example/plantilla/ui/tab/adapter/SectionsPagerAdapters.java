@@ -8,6 +8,7 @@ import com.example.plantilla.ui.fragment.RecycleSegViewFragment;
 import com.example.plantilla.ui.tab.fragment.TabAFragment;
 import com.example.plantilla.ui.tab.fragment.TabBFragment;
 import com.example.plantilla.ui.tab.fragment.TabCFragment;
+import com.example.plantilla.ui.tab.fragment.TabMaps;
 
 public class SectionsPagerAdapters extends FragmentPagerAdapter {
     public SectionsPagerAdapters(FragmentManager fm) {
@@ -28,13 +29,16 @@ public class SectionsPagerAdapters extends FragmentPagerAdapter {
             case 2:
                 tabFragment = new RecycleSegViewFragment();
                 break;
+            case 3:
+                tabFragment = new TabMaps();
+                break;
         }
         return tabFragment;
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     public CharSequence getPageTitle(int position) {
@@ -50,6 +54,9 @@ public class SectionsPagerAdapters extends FragmentPagerAdapter {
                 break;
             case 2:
                 section = "Buses";
+                break;
+            case 3:
+                section = "Mapas";
                 break;
         }
         return section;

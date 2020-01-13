@@ -566,4 +566,20 @@ Traductor de Google para empresas:Google Translator Toolki</string>
     <string name="active">Activo</string>
     <string name="enter_nombre">Nombre</string>
     <string name="enter_descripcion">Descripcion</string>
+
+    <string name="load_gpx_data_button_label">Load GPX mock data</string>
+    <string name="snap_to_roads_button_label">Send snap to roads request</string>
+    <string name="request_speeds_button_label">Request speed limits</string>
+
+
+    <string name="google_directions_key">Your directions key here</string>
+    <string name="enter_source_place_text">Enter Source Place</string>
+    <string name="enter_destination_place_text">Enter Destination Place</string>
+    <string name="button_text">GO</string>
+    <string name="empty_error">Fields cannot be empty</string>
+    <string name="internet_error">No Internet Connection!!</string>
+    <string name="enter_place_text">Enter Place</string>
+    <string name="go_button_text">GO</string>
+    <string name="driver_mode_text">Driver Mode</string>
+    <string name="title_activity_driver_mode">Map</string>
 </resources>
